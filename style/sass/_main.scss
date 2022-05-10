@@ -1,0 +1,67 @@
+main{
+    background-color: $color-background;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.9rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+}
+.form{
+    width: 100%;
+    height: 85%;
+    background-color: $color-neutral;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    .bill{
+        width: 86%;
+        label{
+            font-size: 1.6rem;
+            color: $color-text;
+        }
+        &--input{
+            padding: 0 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 42px;
+            background-color: $color-backbutton;
+            border-radius: 8px;
+            margin-top: 6px;
+            img{
+                width: 11px;
+                height: 17px;
+            }
+            input{
+                width: 90%;
+                height: 80%;
+                border: none;
+                text-align: end;
+                background-color: $color-backbutton;
+                font-size: 2.2rem;
+                outline: none;
+                font-weight: 700;
+                color: $color-secondary;
+            }
+        }
+    }
+}
+
+.attribution {
+    padding-block-start: 20px;
+    height: 80px;
+    font-size: 16px;
+    text-align: center;
+    background-color: $color-background;
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}

@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+}
+
+main {
+  background-color: #c5e4e7;
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.9rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 130px;
+}
+
+.form {
+  width: 100%;
+  height: 85%;
+  background-color: white;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+}
+.form .bill {
+  width: 86%;
+}
+.form .bill label {
+  font-size: 1.6rem;
+  color: #5e7a7d;
+}
+.form .bill--input {
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+  background-color: #f4fafa;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+.form .bill--input img {
+  width: 11px;
+  height: 17px;
+}
+.form .bill--input input {
+  width: 90%;
+  height: 80%;
+  border: none;
+  text-align: end;
+  background-color: #f4fafa;
+  font-size: 2.2rem;
+  outline: none;
+  font-weight: 700;
+  color: #00494d;
+}
+
+.attribution {
+  padding-block-start: 20px;
+  height: 80px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #c5e4e7;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=index.css.map */
