@@ -17,18 +17,53 @@
       <img src="./images/logo.svg" alt="splitter's logo">
     </header>
     <section class="form">
-      <div class="bill">
+      <section class="bill">
         <label for="bill">Bill</label>
         <div class="bill--input">
           <img src="./images/icon-dollar.svg" alt="icon of dollar">
           <input type="number" placeholder="$0">
         </div>
-      </div>
+      </section>
+      <section class="tips">
+        <label for="select">Select Tip %</label>
+        <div class="tips__buttons">
+          <input class="percent" type="button" value="5%"></input>
+          <input class="percent" type="button" value="10%"></input>
+          <input class="percent" type="button" value="15%"></input>
+          <input class="percent" type="button" value="25%"></input>
+          <input class="percent" type="button" value="50%"></input>
+          <input class="custom" type="number" placeholder="Custom">
+        </div>
+      </section>
+      <section class="people">
+        <label for="people">Number of People</label>
+        <div class="people__input">
+          <img src="./images/icon-person.svg" alt="People's Icon">
+          <input type="number" placeholder="0">
+        </div>
+        <div class="total">
+          <div class="total__result">
+            <div>
+              <p class="total__result_text">Tip Amount</p>
+              <p class="total__result_subtext">/ person</p>
+            </div>
+            <span class="total__result-value">$4.24</span>
+          </div>
+          <div class="total__result">
+            <div>
+              <p class="total__result_text">Total</p>
+              <p class="total__result_subtext">/ person</p>
+            </div>
+            <span class="total__result-value">$32.79</span>
+          </div>
+          <button type="reset">RESET</button>
+        </div>
+      </section>
     </section>
   </main>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Julio César García Rodríguez</a>.
   </div>
 </body>
 </html>

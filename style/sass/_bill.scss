@@ -1,0 +1,7 @@
+.bill{
+    grid-area: bill;
+    width: 82%;
+    &--input{
+        @include inputs;
+    }
+}
